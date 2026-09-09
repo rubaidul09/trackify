@@ -8,7 +8,7 @@ const HomeScreen({super.key});
 Widget build(BuildContext context) {
 return Scaffold(
 
-// Green App Bar
+
 appBar: AppBar(
 backgroundColor: Colors.green,
 foregroundColor: Colors.white,
@@ -120,7 +120,7 @@ onPressed: () {},
 
         const SizedBox(height: 25),
 
-        // Recent Transactions
+
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: const [
